@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find wr_pi_extend_board_driver)/launch/core.launch" />
+    <node name="move_motor" pkg="subsystem_practice" type="move_motor.py" output="screen" required="true"/>
+</launch>

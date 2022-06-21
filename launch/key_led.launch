@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find wr_pi_extend_board_driver)/launch/core.launch" />
+  <node name="key_led_node" pkg="subsystem_practice" type="key_led_node.py" required="true" output="screen"/>
+</launch>
